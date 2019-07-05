@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #hasil {
+        margin-left: 50%;
+        color: black;
+    }
+    
+    #heading {
+        float: left;
+        width: 640px;
+    }
+    
+    #heading a {
+        line-height: 65px;
+        text-decoration: none;
+        padding-left: 60px;
+        color: indianred;
+        font-family: aardvark cafe;
+        font-size: 40px;
+    }
+    
+    #menu {
+        background: #26C4C2;
+        width: 100%;
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #menu ul {
+        list-style: none;
+    }
+    
+    #menu ul li {
+        float: left;
+        line-height: 45px;
+    }
+    
+    #menu ul li a {
+        float: left;
+        width: 100px;
+        display: block;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #menu ul ul {
+        display: none;
+        list-style: none;
+        position: absolute;
+        background-color: #26C4C2;
+        float: none;
+        top: 65px;
+        width: 145px;
+        height: 140px;
+    }
+    
+    #menu ul li a:hover {
+        background-color: #2E9EA2;
+        display: block;
+    }
+    
+    #menu ul li:hover ul {
+        display: block;
+    }
+    
+    #menu ul ul li a {
+        display: block;
+        padding-left: 20px;
+        text-align: left;
+        width: 100px;
+        height: 45x;
+        line-height: 30px;
+    }
+    
+    #menu ul ul li a:hover {
+        color: #ff9922;
+    }
+    
+    #isi3 {
+        float: left;
+        min-height: 200%;
+        padding: 2%;
+        width: 90%;
+        text-align: left;
+        background-color: wheat;
+        margin-left: 5%;
+    }
+    
+    body {
+        background-image: url(b.jpg);
+        background-repeat: repeat;
+        overflow: auto;
+        clear: center;
+        font-family: arial, segoe ui;
+        display: block;
+    }
+</style>
+
+<body>
+    <h1><b><marquee behavior="scroll"direction="right">WELCOME TO MY WEB</marquee></b></h1>
+    <div id="hasil"></div>
+    <script>
+        var waktu = new Date();
+        document.getElementById("hasil").innerHTML = waktu;
+    </script>
+    <nav id="menu">
+        <ul>
+            <div id="heading">
+                <a href="#">My Website</a>
+            </div>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="">My Profile</a>
+                <ul>
+                    <li><a href="myprofile.html">About Me</a>
+                    </li>
+                    <li><a href="saya.html">About my WEB</a></li>
+                </ul>
+            </li>
+            <li><a href="">Yang baru</a>
+                <ul>
+                    <li><a href="webthree.html">using thereis,are</a></li>
+                    <li><a href="webtwo.html">using some&any</a></li>
+                </ul>
+            </li>
+            <li><a href="">Kontak</a>
+                <ul>
+                    <li><a href="kontak.html">my contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="isi3">
+        <h2>PERBEDAAN & PENGGUNAAN SOME & ANY</h2>
+        <img src="some,any.jpg" alt="pengertian some dan any">
+        <p><i><b>You read :</b> Perbedaan dan Penggunaan some and any</i></p>
+        <p>Hello...<br> How are you doing? Kita telah membahas mengenai</br>
+            "indefinite articles:A dan AN" dan perbedaan penggunaan There is & There are.<br> Kali ini kita akan membahas perbedaan dan penggunaan</br> <b>some</b>and <b>any.</b>
+        </p>
+        <p>"Aa itu some dan any?", <br>"Apa perbedaan antara some dan any?",</br>
+            "Bagaimana penggunaan some dan any dalam kalimat?"<b>Let's discuss!</b></p>
+        <p>Pengertian Some dan Any
+            <br><b>Some</b>dan <b>any</b> adalah bentuk <b>quantifiers,</b>yakni disebuah kata yang</br>
+            digunakan sebelum kata benda yang menunjukan jumlah.
+        </p>
+        <img src="some or any.png" alt="contoh penggunaan some dan any">
+        <p>Contoh :
+            <ul>
+                I have <b>some </b>books.
+            </ul>
+            <ul>
+                I don't have <b>any</b>books.
+            </ul>
+            <h4>SOME dan ANY</h4>
+        </p>
+        <p>Some dan Any keduanya dapat digunakan untuk kata benda <b>countable</b><br> (dapat dihitung)atau <b>uncountable(tidak dapat dihitung).</b> Contoh countable :
+            <ul>I have some <b>spoons.</b></ul>
+            <ul>I don't have any <b>spoons.</b></ul>
+        </p>
+        <p>untuk benda <b>countable</b>(dapat dihitung), gunakan bentuk <b>plural</b>(jamak) <br> Contoh diatas spoon menjadi spoons(ditambah akhiran-s).</br>
+        </p>
+        <p>Contoh uncountable :
+            <ul>She has some <b>information.</b></ul>
+            <ul>She hasn't any <b>information.</b></ul>
+        </p>
+        <p>Sekian Materi yang dapat saya berikan, <br>kurang dan lebih saya mohon maaf</br>
+            semoga dapat bermaanfaat bagi teman-teman. <br>Alangkah baiknya ada kritik dan saran dari teman-teman.</br>
+            ~from zero to hero~~</p>
+    </div>
+</body>
+
+</html>

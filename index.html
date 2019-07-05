@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>penggunaan kata a,an dan the dengan tepat</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .LOGO {
+        width: auto;
+        background: white;
+        padding: 20px;
+    }
+    
+    #hasil {
+        margin-left: 50%;
+        color: black;
+    }
+    
+    #heading {
+        float: left;
+        width: 640px;
+    }
+    
+    #heading a {
+        line-height: 65px;
+        text-decoration: none;
+        padding-left: 60px;
+        color: indianred;
+        font-family: aardvark cafe;
+        font-size: 40px;
+    }
+    
+    #menu {
+        background: #26C4C2;
+        width: 100%;
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #menu ul {
+        list-style: none;
+    }
+    
+    #menu ul li {
+        float: left;
+        line-height: 45px;
+    }
+    
+    #menu ul li a {
+        float: left;
+        width: 100px;
+        display: block;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #menu ul ul {
+        display: none;
+        list-style: none;
+        position: absolute;
+        background-color: #26C4C2;
+        float: none;
+        top: 65px;
+        width: 190px;
+    }
+    
+    #menu ul li a:hover {
+        background-color: #2E9EA2;
+        display: block;
+    }
+    
+    #menu ul li:hover ul {
+        display: block;
+    }
+    
+    #menu ul ul li a {
+        display: block;
+        padding-left: 20px;
+        text-align: left;
+        width: 100px;
+        height: 38px;
+        line-height: 10px;
+    }
+    
+    #menu ul ul li a:hover {
+        color: #ff9922;
+    }
+    
+    .HOME {
+        float: left;
+        margin: 20px;
+        border: 1px solid yellow;
+        padding: 15px;
+    }
+    
+    #satu {
+        color: white;
+        text-shadow: 1px 1px yellow;
+        background-color: pink;
+        padding: 5%;
+        float: right;
+    }
+    
+    #dua {
+        color: #ff9922;
+        background-color: whitesmoke;
+        padding: 5%;
+        float: left;
+        text-align: left;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        background-color: #ff9;
+    }
+    
+    .KONTEN {
+        margin: 0% 0% 0% 0%;
+        background: #ff9;
+        text-align: left;
+        margin-top: 0%;
+        padding-left: 15%;
+    }
+    
+    i {
+        color: red;
+    }
+    
+    #isi1 {
+        text-align: left;
+        max-block-size: 200px;
+    }
+    
+    body {
+        background-image: url(b.jpg);
+        background-position: right left;
+        background-repeat: repeat;
+        overflow: auto;
+        clear: center;
+        font-family: arial, segoe ui;
+        display: block;
+        font-size: 14px;
+    }
+    
+    img {
+        height: 350px;
+        width: 300px;
+        padding: 0px;
+    }
+</style>
+
+<body>
+    <h1><b><marquee behavior="scroll"direction="right">WELCOME TO MY WEB</marquee></b></h1>
+    <div id="hasil"></div>
+    <script>
+        var waktu = new Date();
+        document.getElementById("hasil").innerHTML = waktu;
+    </script>
+    <nav id="menu">
+        <ul>
+            <div id="heading">
+                <a href="#">My website</a>
+            </div>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="">My Profile</a>
+                <ul>
+                    <li><a href="myprofile.html">About Me</a>
+                    </li>
+                    <li><a href="saya.html">About my WEB</a></li>
+                </ul>
+            </li>
+            <li><a href="">Yang baru</a>
+                <ul>
+                    <li><a href="webthree.html">using thereis,are</a></li>
+                    <li><a href="webtwo.html">using some&any</a></li>
+                </ul>
+            </li>
+            <li><a href="">Kontak</a>
+                <ul>
+                    <li><a href="kontak.html">my contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    </div>
+
+
+    <div class="LOGO">
+        <img src="gg.jpg" alt="WELCOME">
+        <div id="isi2">
+            <div id="form">
+                <h3>dapatkan materi lainnya dan tips belajar</h3>
+                <form>
+                    Firts name: <br>
+                    <input type="text" name="firtsname" value="nessie"><br> Last name:<br>
+                    <input type="text" name="lastname" value="jugje"><br> E-mail:
+                    <br>
+                    <input type="email" name="@mail.com" value="@gmail.com"><br> Password:
+                    <br>
+                    <input type="password" name="" value="y1vi9s0"><br>
+                    <br> <input type="submit" name="">
+                    <input type="reset" name="reset">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="KONTEN">
+
+        <div id="isi1"></div>
+        <h1>IT'S TIME TO LEARN ENGLISH </h1>
+        <P>Disini kita akan membahas 3 topik yaitu :
+            <ol type="1">
+                <li>penggunaan kata <i>A,AN & THE</i></li>
+                <li>penggunaan <i>there is dan there are></i></li>
+                <li>penggunaan <i>Some & Any</i></li>
+            </ol>
+            <br>oke..! langsung saja kita bahas satu per satu...</br>
+        </P>
+        <h2>Bagaimana Cara Penggunaan <i>a, an,</i> dan <i>the</i> <br> dengan tepat?</br>
+        </h2>
+        <img src="a,an,the.jpg" alt="perbedaan a,an, dan the">
+        <p>Penggunaan <i>a, an, dan the</i> <br>dalam bahasa Inggris biasanya akan kalian </br>jumpai saat mempelajari materi pemakaian
+            <i>articles.</i>Dalam hal ini, <i>articles</i> merupakan kata-kata yang kamu <br> pakai untuk memberi </br>makna berbeda pada kata benda <i>(noun).</i>
+        </p>
+        <p>Secara teknis, <i>articles</i>termasuk ke dalam kata sifat atau
+            <i>adjective</i><br>yang juga berperan mengubah atau memberi makna terhadap kata benda.</br>
+            Hanya saja, kalau sifat mengubah makna kata <br> benda lewat deskripsi, maka <i>articles</i> diaplikasikan </br>
+            untuk merunjuk atau menandai ke kata benda tertentu.
+        </p>
+        <h3><b>mengenal <i>a, an,</i>dan <i>the</i> dalam kelompok <i>articles</i></b> </h3>
+        <p><i>articles</i> dalam bahasa Inggris dibagi jadi dua jenis, yakni <i>definite</i> dan <i>indefinite articles.</i>
+            <br>kata <i>the</i> masuk ke jenis <i>definite articles,</i>sedangkan <i>a</i> dan <i>an</i> masuk ke <i>indefinite articles.</i></br>
+            Perbedaan mendasar dari dua jenis <i>articles</i> tersebut tampak dari namanya. <br><i>Definite articles</i> biasanya disematkan pada kata benda yang diyakini</br>
+            pihak pembicara maupun pendengar. Singkatnya,<i>the</i> dipakai dalam kata benda spesifik, <br>lantas <i>a</i> dan <i>an</i> yang masuk ke kategori <i>indefinite articles</i></br>
+            diaplikasikan pada kata benda yang umum.</p>
+        <h3><b>Contoh penerapan <i>the</i> dalam kalimat bahasa Inggris</b></h3>
+        <p>kalian dapat menggunakan <i>the</i> dalam sejumlah kondisi dan situasi, antara lain :
+            <ul style="list-style-type:square">
+                <li>Merunjuk pada sesuatu yang telah kamu sebutkan sebelumnya.
+                    <br> contohnya :<i> My sister will be getting married to a handsome man.
+                        </br></li>
+                        <b>The groom-to-be</b> is her high school sweetheart.</i>
+                    <li>Memakai the saat kalian yakin bahwa yang disebutkan memang hanya ada satu dan tertuju <br> pada kata benda tersebut.</br>
+                        Contohnya : <i><b>The sun</b> is bright this afternoon.</i></li>
+
+                    <li>Mengaplikasikan the dalam klausa maupun kalimat yang menjelaskan atau mengidentifikasikan<br> seseorang/objek tertentu.</br>
+                        Contohnya : <i>I'm looking for <b>the blue bicycle</b> parked outside.</i>
+                    </li>
+                    <li>'the'dalam penggunaan a, an dan the berikutnya terdapat objek maupun seseorang <br> yang unik.</br>
+                        Contohnya : <i>An eagle is flying to <b>the sky</b>.</i>
+                    </li>
+                    <li>Dipakai sebelum tingkatan <i>ordinal number</i> dan <i>superiatives</i>. <br> Contohnya : <i>it is <b>the newest</b> album from the band, her husband is</br>
+                                the youngest governor.</i>
+                    </li>
+                    <li>Menggunakan the dengan kata sifat untuk merunjuk pada sekelompok orang.<br> Contohnya :<i>Do not treat <b>the poor</b> like that</i> .</br>
+                    </li>
+                    <li>Menerapkan the dalam klausa berawalan only.<br> Contohnya : <i>Her mom is <b>the only</b> person she will ever listen to.</i></br>
+                    </li>
+                    <li>Memakai the untuk kawasan geografis seperti sungai, pegunungan, pulau, dan lain sebagainya <br> Contohnya : <i>Traveling to <b>the Seribu Island</b> doesn't require much money.</i></br>
+                    </li>
+                    <li>Disematkan pada negara yang memakaikata republic, state, dan kingdom.<br> Contohnya : <i>They are coming from <b>the United Kingdom</b></i></br>
+                    </li>
+                    <li>Menggunakan the dalam nama bangunan atau monumen terkenal.<br> Contohnya: <i>I want to take a picture at <b>the Great wall</b> in China.</i></br>
+                    </li>
+            </ul>
+        </p>
+        <p>
+            <img src="perbedaan a,an,the.png" alt="perbedaan a,an, dan the">
+            <h3>Contoh penerapan a dan an dalam kalimat bahasa Inggris</h3>
+            Seperti yang telah disinggung, a dan an masuk ke kelompok <i>indefinite articles</i> yang mana <br> diaplikasikan sebelum kata-kata benda tunggal(singular)yang jumlahnya dapat dihitung </br>
+            (countable). Selain itu, amat penting buat kalian mengetahui perbedaan a dan an.
+        </p>
+        <p>'a' umumnya ditempatkan di depan kata benda dengan huruf awal atau aksara yang berbunyi <br> konsonan, sedangkan 'an'disimpan sebelum kata benda atau huruf atau aksara berbunyi vokal </br>
+            (a,i,u,e,o). <br>Contohnya : </br> <b>She told me she has a car</b>. </br>
+            <b>My editor suggested me to read a book every two weeks.</b>
+
+
+    </div>
+    <div class="tabel">
+        <table style="width:auto">
+            <tr>
+                <caption>contoh kalimat</caption>
+                <th>no</th>
+                <th>A</th>
+                <th>AN</th>
+                <th>THE</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>a book</td>
+                <td>an apple</td>
+                <td>the moon</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>a boy</td>
+                <td>an elephant</td>
+                <td>the star</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>a car</td>
+                <td>an ugly duck</td>
+                <td>the cat</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>a university</td>
+                <td>an hour</td>
+                <td>the flower</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>a unit</td>
+                <td>an honor</td>
+                <td>the lamp</td>
+            </tr>
+        </table>
+        </p>
+        <p> Demikian informasi seputar penggunaan a, an, dan the dalam bahasa Inggris.<br> Semoga dapat membantu!</br>
+
+        </p>
+
+    </div>
+</body>
+
+</html>
